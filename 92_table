@@ -3,3 +3,13 @@ CREATE TABLE table_name (
     column2 datatype constraint,
     column3 datatype constraint
 );
+
+
+-- Create Student Table
+
+CREATE TABLE students (
+    student_id INT PRIMARY KEY,
+    student_name VARCHAR(50) NOT NULL,
+    course VARCHAR(50),
+    age INT
+);
