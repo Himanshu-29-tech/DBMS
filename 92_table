@@ -13,3 +13,9 @@ CREATE TABLE students (
     course VARCHAR(50),
     age INT
 );
+
+
+
+--Altertable 
+    ALTER TABLE Student ADD Email VARCHAR(100);
+    
